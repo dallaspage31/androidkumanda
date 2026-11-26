@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TV Kumanda</string>
+    <string name="service_description">Netflix, Disney ve Prime kumanda tuşlarını seçtiğiniz uygulamalara yönlendirir. Yalnızca tuş olaylarını işler; ekran içeriğini okumaz, veri göndermez. Tuş atamalarını uygulamadan silebilir, hizmeti buradan kapatabilirsiniz.</string>
+    <string name="service_summary">Kumandanın üç uygulama tuşunu değiştirir.</string>
+</resources>
