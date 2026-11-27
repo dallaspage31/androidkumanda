@@ -201,6 +201,13 @@ if "$cygwin" || "$msys" ; then
 fi
 
 
+GRADLE_USER_HOME="$APP_HOME/.gradle-home"
+TMPDIR="$APP_HOME/.gradle-tmp"
+TMP="$TMPDIR"
+TEMP="$TMPDIR"
+export GRADLE_USER_HOME TMPDIR TMP TEMP
+mkdir -p "$GRADLE_USER_HOME" "$TMPDIR" || die "Could not create project-local Gradle and temporary directories."
+
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
 
